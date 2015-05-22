@@ -5,8 +5,8 @@ This archetype generates a small Maven project with Selenium WebDriver and TestN
 
 To install the archetype in your local repo:
 
-	git clone git://github.com/RusanovQA/Selenium-Framework.git
-	cd Selenium-Framework
+	git clone git://github.com/barancev/webdriver-java-quickstart-archetype.git
+	cd webdriver-java-quickstart-archetype
 	mvn install
 
 Now, you can use the archetype in a new project typing:
@@ -15,7 +15,7 @@ Now, you can use the archetype in a new project typing:
 
 where *mygroupId* : group id of the project you are creating; *myartifactId* : artifact id of the project you are creating
 
-It uses Java bindings for Selenium version 2.45.0, OperaDriver version 1.5, PhantomJSDriver 1.1.0 and TestNG version 6.9.4.
+It uses Java bindings for Selenium version 2.43.1, OperaDriver version 1.5, PhantomJSDriver 1.1.0 and TestNG version 6.8.8.
 
 
 Project Structure
@@ -67,4 +67,4 @@ The project is just a starting point, feel free to modify it according to your n
 
 Credits
 -------
-The Selenium-Framework project is an open source project licensed under the Apache License 2.0.
+The webdriver-java-quickstart-archetype project is an open source project licensed under the Apache License 2.0.
